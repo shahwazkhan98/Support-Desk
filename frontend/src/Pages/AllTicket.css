@@ -1,0 +1,46 @@
+.all-tickets{
+    /* background-color: aliceblue; */
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+}
+.all-ticket-head{
+    /* background-color: blue; */
+    display: flex;
+    border: 1px solid rgba(240, 248, 255, 0.215);
+    margin-bottom: 5px;
+    box-shadow: 1px 0 5px black;
+    width: 100%;
+    justify-content: space-around;
+}
+.tik-dat{
+    /* background-color: aliceblue; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.tik-pro{
+    /* background-color: aliceblue; */
+  display: flex;
+    justify-content: center;
+  width: 20%;
+}
+.tik-stat{
+    /* background-color: aliceblue; */
+   display: flex;
+    width: 20%;
+}
+.tik-stat p{
+    font-size: 25px;
+     color: aliceblue;
+     margin-right: 1em !important;
+}
+.tik-dat p{
+    font-size: 25px;
+     color: aliceblue;
+}
+.tik-pro{
+    font-size: 25px;
+     color: aliceblue;
+}

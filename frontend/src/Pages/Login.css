@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-main{
+    background-color: rgba(240, 248, 255, 0.313);
+    border: 1px solid aliceblue;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.log-1{
+    /* background-color: blue; */
+    height: 28%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    flex-direction: column;
+}
+.log-1 input{
+    padding: 1em;
+    border: none;
+    outline-style: none;
+    box-shadow: 1px 0 10px rgba(5, 5, 16, 0.268);
+    background-color: rgba(62, 27, 27, 0.616);
+}
+.log-1 input::placeholder {
+    color: aliceblue;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.log-btn{
+    min-height: 20vh;
+    width: 80%;
+    padding: 5px;
+}
+.log-btn button{
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: aliceblue;
+    letter-spacing: 1px;
+    width: 150px;
+    background: none;
+    border: none;
+    box-shadow: 1px 0px 9px rgb(227, 214, 214);
+}
+
+.log-1 label{
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

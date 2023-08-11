@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+/* body { */
+/* background-image: url(../src/assets/RegisterImg/regbg2.jpg); */
+/* background-size: cover; */
+/* background-position: center; */
+/* } */
+
+body {
+  background-image: url(../assets/RegisterImage/reg4.jpg) !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(6, 12, 34, 0.957);
+  
+}
+.container {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  min-width: 100%;
+  min-height: 88vh;
+}
+.back-button{
+  width: 100%;
+margin: 5px 5px;
+  padding: 5px;
+}

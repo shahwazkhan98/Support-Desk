@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.new-all-tick{
+    display: flex;
+    min-height: 80vh;
+    border: 1px solid rgba(240, 248, 255, 0.327);
+    box-shadow: 1px 0 5px black;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    justify-content: space-around;
+    
+}
+.new-tick-create{
+        padding: 0.3em;
+    font-size: 20px;
+    filter: drop-shadow(1px 0 4px black);
+     color: aliceblue;
+      text-shadow: 1px 0 20px rgb(133, 160, 222) !important;
+    font-weight: 600;
+}
+.new-pro-tick{
+    font-size: 20px;
+    padding: 0.3em;
+    text-transform: uppercase;
+     color: aliceblue;
+   margin-left: 4em;
+    text-shadow: 1px 0 20px rgb(133, 160, 222) !important;
+    font-weight: 600;
+}
+#status{
+    
+    padding: 0.3em;
+     font-size: 20px;
+     text-transform: uppercase;
+     font-weight: 600;
+ margin-left: 3.5em;
+     color: aliceblue;
+     text-shadow: 1px 0 20px rgb(133, 160, 222) !important;
+}
+.new-tick-link{
+       padding: 0.3em;
+     font-size: 20px;
+     text-transform: uppercase;
+     font-weight: 600;
+     text-decoration: none;
+     border: 1px dotted aliceblue;
+     height: 2.5em;
+     width: 150px;
+     text-align: center;
+     box-shadow: 1px 0 5px black;
+     color: aliceblue;
+     text-shadow: 1px 0 20px rgb(133, 160, 222) !important;
+}

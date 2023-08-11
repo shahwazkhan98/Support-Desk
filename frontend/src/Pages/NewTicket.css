@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.new-main-detail{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   min-width: 100%;
+}
+.form{
+    width: 70%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-group{
+    width: 100%;
+}
+.new-select{
+    width: 100%;
+    margin: 2px 0;
+    background: none;
+    letter-spacing: 0.2em;
+    color: rgb(23, 90, 148);
+    text-transform: uppercase;
+    box-shadow: 3px 0px 8px rgb(53, 17, 17);
+}
+
+.text-light{
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+}
+.new-1{
+    background: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.204) !important;
+    color: aliceblue !important;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    box-shadow: 3px 0px 8px rgb(53, 17, 17);
+}
+.new-tick-head h1{
+    color: aliceblue !important;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 0.1em !important;
+    margin-bottom: 0.2em;
+}
+.new-tick-head p{
+    font-size: 1.5rem !important;
+    text-align: center;
+    letter-spacing: 0.1em !important;
+    font-weight: 600 !important;
+    color: aliceblue !important;
+}
+textarea::placeholder{
+    font-size: 1.3em;
+    letter-spacing: 0.3em;
+    font-weight: 600;
+    text-align: center;
+}
+textarea:hover::placeholder{
+    opacity: 0;
+}
+.form-group{
+    transition: ease-in-out 0.3s;
+}
