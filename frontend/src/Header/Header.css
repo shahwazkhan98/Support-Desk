@@ -8,7 +8,7 @@
   align-items: center;
   padding: 10px;
   justify-content: space-between;
-  box-shadow: rgba(214, 218, 222, 0.357) 0px 8px 24px;
+  border-bottom: 1px solid black;
 }
 .nav-head {
   padding: 0.3em;
@@ -17,6 +17,7 @@
   padding: 0.3em;
   font-size: 1.5em;
   text-decoration: none;
+  color: aliceblue;
 }
 .nav-ul {
   padding: 0.3em;
@@ -30,16 +31,15 @@
   text-decoration: none;
   display: flex;
   width: 140px;
+  border-radius: 20px;
   color: aliceblue;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
-    rgb(209, 213, 219) 0px 0px 0px 1px inset;
-  font-size: 1.5em;
+  background-color: #d7867f;
+  font-size: 1.2em;
   justify-content: center;
   padding: 0.2em;
 }
 .nav-ul li{
   list-style-type: none;
-  /* background-color: aliceblue; */
   text-align: center;
 }
 .btn{
@@ -48,8 +48,6 @@
   color: aliceblue;
    font-size: 1.5em;
   border-radius: 0px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
-    rgb(209, 213, 219) 0px 0px 0px 1px inset;
 }
 .reg {
   margin-right: 4px;

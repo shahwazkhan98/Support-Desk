@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
   /* border: 1px solid red; */
 }
 /* body { */
@@ -15,7 +17,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(6, 12, 34, 0.957);
+  background-color:#bc382e;
   
 }
 .container {
@@ -28,6 +30,6 @@ body {
 }
 .back-button{
   width: 100%;
-margin: 5px 5px;
+  margin: 5px 5px;
   padding: 5px;
 }

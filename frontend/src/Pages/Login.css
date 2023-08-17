@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 .login-main{
-    background-color: rgba(240, 248, 255, 0.313);
+    background-color: rgba(255, 249, 240, 0.034);
     border: 1px solid aliceblue;
-    height: 580px;
+    border-radius: 10px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +24,7 @@
     flex-direction: column;
 }
 .log-1 input{
-    padding: 1em;
+    padding: .6em;
     border: none;
     outline-style: none;
     box-shadow: 1px 0 10px rgba(5, 5, 16, 0.268);
@@ -31,8 +32,8 @@
 }
 .log-1 input::placeholder {
     color: aliceblue;
-    font-size: 1.2em;
-    font-weight: 600;
+    font-size: 1em;
+    /* font-weight: 600; */
     letter-spacing: 1px;
 }
 .log-btn{
@@ -41,6 +42,7 @@
     padding: 5px;
 }
 .log-btn button{
+    border-radius: 20px;
     padding: 10px;
     font-size: 1.2em;
     font-weight: 500;

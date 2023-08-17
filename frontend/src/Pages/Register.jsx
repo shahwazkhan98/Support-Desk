@@ -74,7 +74,7 @@ const [formData, setFormData] = useState({
               <input
                 type="email"
                 name="email"
-                placeholder="Enter Your Name"
+                placeholder="Enter Your Email"
                 onChange={handleChange}
                 value={email}
               />
@@ -84,7 +84,7 @@ const [formData, setFormData] = useState({
               <input
                 type="password"
                 name="password"
-                placeholder="Enter Your Name"
+                placeholder="Enter Your Password"
                 onChange={handleChange}
                 value={password}
               />
@@ -94,7 +94,7 @@ const [formData, setFormData] = useState({
               <input
                 type="password"
                 name="password2"
-                placeholder="Enter Your Name"
+                placeholder="Confirm Password"
                 onChange={handleChange}
                 value={password2}
               />

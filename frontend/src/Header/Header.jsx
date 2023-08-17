@@ -14,7 +14,7 @@ const Header = () => {
     <>
       <div className="header">
         <div className="nav-head">
-          <Link to="/">Main</Link>
+          <Link to="/">Support Desk</Link>
         </div>
         <span className="nav-ul">
           {user ? (
